@@ -9,6 +9,7 @@ EditOnit is a jQuery plugin that will turn any input box (like a textarea) into 
 * Minimal extra UI around the input area.
 * Graceful fallback
 ** If server is not up, fallback to single-user area.
+* Stateless - doesn't rely on cookies etc (editonit consumer can keep state)
 
 ^ Usage
 
