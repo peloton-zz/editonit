@@ -1,0 +1,20 @@
+^ NAME - EditOnit
+
+^ Description
+
+EditOnit is a jQuery plugin that will turn any input box (like a textarea) into a multiuser collaborative editor.
+
+^ Features
+
+* Minimal extra UI around the input area.
+* Graceful fallback
+** If server is not up, fallback to single-user area.
+
+^ Usage
+
+var $eo = $('textarea').editonit('http://server.com/localappid/');
+$eo.adduser(localuserid);
+
+^ License
+
+Open
