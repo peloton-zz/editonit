@@ -13,8 +13,8 @@ EditOnit is a jQuery plugin that will turn any input box (like a textarea) into 
 
 ^ Usage
 
-var $eo = $('textarea').editonit('http://server.com/localappid/');
-$eo.adduser(localuserid);
+$('textarea').editonit_init({serverUrl: 'http://server.com/localappid/'});
+$('textarea').editonit_adduser(localuserid);
 
 ^ License
 

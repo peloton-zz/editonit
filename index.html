@@ -5,13 +5,17 @@
 <script src="/js/jquery-1.3.2.js"></script>
 <script src="/js/editonit.js"></script>
 <script>
-var e = new EditOnit();
-e.init();
+    jQuery(function() {
+        jQuery('textarea').editonit_init({
+            serverUrl: 'http://pelosoft.com:5000/editonit/'
+        });
+    });
 </script>
 
 </head>
 
 <body>
+    <textarea></textarea>
     <textarea></textarea>
 </body>
 </html>
