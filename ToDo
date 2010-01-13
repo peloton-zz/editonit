@@ -1,3 +1,7 @@
 - Turn doc into html
 - Setup a JS test environment
+- Make a TiddlyWiki plugin that uses editonit
+- Look at etherpad capabilities
+
+- Try textarea as well as contenteditable iframe/div
 
